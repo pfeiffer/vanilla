@@ -8,6 +8,10 @@ class MessagesController < ApplicationController
     redirect_to action: :index
   end
 
+  def dump_env
+    render text: env
+  end
+
   private
 
   def permitted_params
