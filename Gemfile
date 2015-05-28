@@ -17,9 +17,7 @@ gem 'unicorn'
 gem 'resque', '~>1.23.1', :require => "resque/server"
 gem 'resque-scheduler', :require => 'resque_scheduler'
 
-gem 'dotenv'
 gem 'dotenv-rails'
-gem 'dotenv-deployment', :require => 'dotenv/deployment'
 
 group :development, :test do
   gem 'debugger'
